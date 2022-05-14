@@ -63,3 +63,10 @@ Ajouter automatiquement les fichiers modifier, et ouvre un éditeur permettant d
 
     git commit -a
 
+Ajouter automatiquement les fichiers, et renseigner un message de commit
+
+    git commit -am
+
+Changer le message du dernier commit avant un push
+
+    git commit --amend -m "nouveau message de commit"
