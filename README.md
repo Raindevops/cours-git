@@ -38,9 +38,12 @@ Récupérer tous les fichiers mis de côtés
 
     git stash pop
 
-Afficher les fichiers mis de côtés
+Afficher les modifications mise de côtées
 
     git stash show --text
+
+Afficher le sha1 des commits sur lequel les modifications mises de côtées se basent 
+
     git stash list
 
 Réinitialliser tous les fichiers mis de côtés
