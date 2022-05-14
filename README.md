@@ -2,6 +2,9 @@
 
 ## Liste des commandes
 
+- [Remote](#remote)
+
+
 ### Remote
 
 Lister tous les remotes enregistrés pour le projet
@@ -187,6 +190,7 @@ Voir les modifications du dernier commit
 
 ### Cherry pick
 
-Cherry pick permet de récupérer la modifications des fichiers, présent dans l'historique des commits, depuis une autre branche.
+Cherry-pick permet de rapatrier les modifications faites lors d'un commit, sur la branche courante, ou une autre branche du répertoire distant.
 
     git cherry-pick <nom_de_la_branche>
+    git cherry-pick <commit_sha1>
