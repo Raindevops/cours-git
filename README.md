@@ -110,7 +110,23 @@ Les commandes **git pull** sont similaires aux commandes **git push**
 
 ### Restore
 
+Annulé les modifications d'un ou plusieurs fichiers, non ajouté
+
+    git restore <chemin_vers_fichiers>
+
+Annulé l'ajout de fichier, avant un commit
+
+    git restore --staged <chemin_vers_fichiers>
+
 ### Reset
+
+Annulé un commit  
+
+    git reset --hard HEAD
+
+Annulé plusieurs commits
+
+    git reset --hard HEAD~1
 
 ### Diff
 
