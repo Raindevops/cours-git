@@ -92,11 +92,25 @@ Changer le message du dernier commit avant un push
 
 ### Push
 
+Envoyer les commits vers le répertoire distant
+
+    git push <nom_du_remote> <nom_de_la_branche>
+
+Faire suivre la branche distante par la branche courante
+
+    git push -u <nom_du_remote> <nom_de_la_branche>
+
+Suite à cette commande, le push des commits peut se faire de cette façon : 
+
+    git push 
+
 ### Pull
 
-### Reset
+Les commandes **git pull** sont similaires aux commandes **git push**
 
 ### Restore
+
+### Reset
 
 ### Diff
 
