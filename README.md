@@ -41,6 +41,10 @@ Supprimer une branche en local
 
 ### Modifications avant commit
 
+Vérifier les fichiers modifiés
+
+    git status
+
 Ajouter un ou plusieurs fichiers modifiés.
 
     git add <chemin vers le(s) fichier(s)>
@@ -134,12 +138,37 @@ example :
 
 ### Diff
 
-### Cherry pick
+Afficher la différence avec les fichiers modifiés
+
+    git diff
+    git diff --stat
+    git diff --word-diff
+    git diff --name-only
+
+Afficher la différence avec les fichiers modifiés, entre un git add, et un git commit
+
+    git diff --staged
+    git diff --cached
+
 
 ### Checkout
 
-switch
+Changer de branche, ou remonter l'historique des commits
+
+    git checkout <nom_de_la_branche>
+    git checkout <sha1_du_commit>
+
+Créer une nouvelle branche en local
+
+    git checkout -b <nom_de_la_branche>
+
+Revenir à la tête de la branche courante
+
+    git checkout
+
 
 ### Log
 
 ### Merge
+
+### Cherry pick
