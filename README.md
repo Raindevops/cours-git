@@ -58,3 +58,8 @@ Cette commande ouvre un éditeur de fichier (vim)
 
     git commit
     git commit -v
+
+Ajouter automatiquement les fichiers modifier, et ouvre un éditeur permettant de renseigner un message de commit
+
+    git commit -a
+
