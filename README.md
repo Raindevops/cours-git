@@ -126,7 +126,11 @@ Annulé un commit
 
 Annulé plusieurs commits
 
-    git reset --hard HEAD~1
+    git reset --hard HEAD~<nombre_de_commit_a_remonter>
+
+example :
+
+    git reset --hard HEAD~5
 
 ### Diff
 
