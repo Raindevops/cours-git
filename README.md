@@ -2,6 +2,25 @@
 
 ## Liste des commandes
 
+### Remote
+
+Lister tous les remotes enregistrés pour le projet
+
+    git remote
+    git remote -v
+
+Ajouter un nouveau remote
+
+    git remote add <nom_du_remote> <lien_du_remote>
+
+Renommer un remote
+
+    git remote rename <ancien_nom> <nouveau_nom>
+
+Supprimer un remote
+
+    git remote remove <nom_du_remote>
+
 ### Branches
 
 Afficher la branche actuel
@@ -70,3 +89,23 @@ Ajouter automatiquement les fichiers, et renseigner un message de commit
 Changer le message du dernier commit avant un push
 
     git commit --amend -m "nouveau message de commit"
+
+### Push
+
+### Pull
+
+### Reset
+
+### Restore
+
+### Diff
+
+### Cherry pick
+
+### Checkout
+
+switch
+
+### Log
+
+### Merge
