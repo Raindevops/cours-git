@@ -3,6 +3,16 @@
 ## Liste des commandes
 
 - [Remote](#remote)
+- [Branches](#branches)
+- [Modifications avant commit](#modifications-avant-commit)
+- [Commit](#commit)
+- [Push & Pull](#push)
+- [Restore](#restore)
+- [Reset](#reset)
+- [Diff](#diff)
+- [Checkout](#checkout)
+- [Log](#log)
+- [Cherry pick](#cherry-pick)
 
 
 ### Remote
