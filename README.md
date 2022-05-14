@@ -185,6 +185,8 @@ Voir les modifications du dernier commit
     git show
     git show <commit_sha1>
 
-### Merge
-
 ### Cherry pick
+
+Cherry pick permet de récupérer la modifications des fichiers, présent dans l'historique des commits, depuis une autre branche.
+
+    git cherry-pick <nom_de_la_branche>
