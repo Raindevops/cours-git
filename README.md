@@ -166,8 +166,24 @@ Revenir à la tête de la branche courante
 
     git checkout
 
-
 ### Log
+
+Voir l'historique des commits
+
+    git log
+
+Afficher l'historique des commits en mode graph
+
+    git log --graph
+
+Afficher l'historique des commits raccourcis
+
+    git log --online
+
+Voir les modifications du dernier commit
+
+    git show
+    git show <commit_sha1>
 
 ### Merge
 
