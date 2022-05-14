@@ -7,6 +7,7 @@
 - [Modifications avant commit](#modifications-avant-commit)
 - [Commit](#commit)
 - [Push & Pull](#push)
+- [Tags](#tags)
 - [Restore](#restore)
 - [Reset](#reset)
 - [Diff](#diff)
@@ -124,6 +125,26 @@ Suite à cette commande, le push des commits peut se faire de cette façon :
 ### Pull
 
 Les commandes **git pull** sont similaires aux commandes **git push**
+
+### Tags
+
+Lister les tags présent sur le répertoire
+
+    git tag -l
+
+Créer un nouveau tag
+
+    git tag <nom_du_tag>
+
+Créer un tag avec un message
+
+Ajouter le tag au répertoire distant
+
+    git push origin <nom_du_tag>
+
+Supprimer un tag
+
+    git tag -d <nom_du_tag>
 
 ### Restore
 
