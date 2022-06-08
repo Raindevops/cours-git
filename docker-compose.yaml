@@ -1,0 +1,30 @@
+version: "3.3"
+
+services:
+  web:
+    build: .
+    container_name: web
+    depends_on: 
+    - database
+    networks:
+    - exo_network
+    ports:
+    - 8080:80
+
+  database:
+    image: mysql:8.0.29
+    container_name: database
+    environment:
+      MYSQL_ROOT_PASSWORD: rainald
+      MYSQL_DATABASE: random_int
+    ports:
+    - 3306:3306
+    volumes:
+    - exo_volume:/var/lib/mysql
+    networks:
+    - exo_network 
+
+networks:
+  exo_network:
+volumes:
+  exo_volume:
